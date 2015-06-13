@@ -7,9 +7,7 @@
             <field name="model">product.pricelist.item</field>
             <field name="inherit_id" ref="product.product_pricelist_item_form_view"/>
             <field name="arch" type="xml">
-                <group string="Price Computation" position="attributes">
-                    <attribute name="col">6</attribute>
-                </group>
+
                 <field name="base" position="attributes">
                     <attribute name="invisible">True</attribute>
                 </field>
